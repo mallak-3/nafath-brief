@@ -30,3 +30,9 @@ Phishing-resistant authentication helps protect users from fake login websites t
 Oman’s Personal Data Protection Law requires organizations to handle personal data lawfully and protect individuals’ privacy. A government SSO service should explain why citizens’ data is collected, obtain consent where required, protect stored information, and follow the law’s rules for processing and disclosure. It should also apply appropriate safeguards to reduce the risk of unauthorized access or data leaks.
 ## Resource: Oman Personal Data Protection Law, Royal Decree 6/2022 – https://decree.om/2022/rd20220006/
 
+## Misconception in My Track
+A common misunderstanding is that DNS over HTTPS (DoH) makes all internet activity private. In fact, DoH encrypts DNS requests between the user’s device and the DNS resolver, making it harder for others on the same network to read or change them. However, DoH does not hide all browsing activity or destination IP addresses, and the DNS resolver can still see the requests. Therefore, DoH improves DNS privacy but does not provide complete online anonymity. The “Privacy Considerations” section of RFC 8484 explains these privacy risks.
+## Resource :DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/info/rfc8484/#section-4.2.1
+
+## Open Question
+How can a government SSO service prevent DNS spoofing attacks while ensuring citizens can access government websites securly?
