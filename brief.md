@@ -6,3 +6,14 @@ A Single Sign-On (SSO) service allows citizens to access many government service
 Software connects the login system to different government services. Artificial Intelligence (AI) helps detect unusual login attempts and possible security threats. Mobile security protects citizens when they use the service on their phones. Networking keeps communication between applications and government servers safe. Cybersecurity protects accounts from attacks, such as phishing, and prevents unauthorized access. Data protection ensures that personal information is stored and used safely according to Oman’s Personal Data Protection Law.
 
 These six fields work together to make SSO secure, reliable, and easy to use. If one field has a weakness, it may affect the security of the whole system.
+## Software
+OAuth 2.0 and OpenID Connect (OIDC) are two protocols that work together to improve security. OAuth 2.0 allows applications to access protected resources, such as websites and APIs, using access tokens. OIDC adds user authentication to OAuth 2.0 and supports Single Sign-On (SSO). It also allows applications to get and save user information, such as their name and profile details, with the user's permission.
+## Resource:OAuth 2.0 and OpenID Connect overview - https://developer.okta.com/docs/concepts/oauth-openid/
+
+## AI
+AI can help detect suspicious login attempts in a government SSO service. The NIST AI Risk Management Framework (AI RMF) helps organizations identify, assess, and manage AI risks. Before using AI, the authority should evaluate privacy risks, check for biased or inaccurate results, protect citizens’ personal data, and monitor the system to ensure reliable decisions.
+## Resource :NIST AI RMF Playbook - https://airc.nist.gov/airmf-resources/playbook/
+
+## Mobile
+Android apps use runtime permissions to control access to sensitive information and device features, such as location, camera, and microphone. An app should request permission when a feature needs access and explain why it is necessary. Users can grant or deny the request. The government SSO app should request only the permissions it needs and respect the user’s decision.
+## Resource :Request runtime permissions - https://developer.android.com/training/permissions/requesting#request-permission
