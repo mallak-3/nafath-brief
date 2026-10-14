@@ -17,3 +17,16 @@ AI can help detect suspicious login attempts in a government SSO service. The NI
 ## Mobile
 Android apps use runtime permissions to control access to sensitive information and device features, such as location, camera, and microphone. An app should request permission when a feature needs access and explain why it is necessary. Users can grant or deny the request. The government SSO app should request only the permissions it needs and respect the user’s decision.
 ## Resource :Request runtime permissions - https://developer.android.com/training/permissions/requesting#request-permission
+
+## Networking
+DNS over HTTPS (DoH) encrypts DNS queries between a user’s device and the DNS resolver, helping protect these queries from being read or modified by others on the network. However, DoH does not hide all browsing activity, the destination IP addresses, or protect the device from malware. The DNS resolver can still see the queries, so choosing a trusted resolver is important.
+## Resource :DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/info/rfc8484/#section-4.2.1
+
+## Cybersecurity
+Phishing-resistant authentication helps protect users from fake login websites that try to steal their credentials. Examples include FIDO2 security keys and passkeys based on public-key cryptography. SMS codes and one-time passwords entered manually are not considered phishing-resistant because attackers may trick users into sharing them. A government SSO service should use phishing-resistant authentication to better protect citizens’ accounts.
+## Resource :Multi-Factor Authentication -https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/multi-factor-authentication 
+
+## Data
+Oman’s Personal Data Protection Law requires organizations to handle personal data lawfully and protect individuals’ privacy. A government SSO service should explain why citizens’ data is collected, obtain consent where required, protect stored information, and follow the law’s rules for processing and disclosure. It should also apply appropriate safeguards to reduce the risk of unauthorized access or data leaks.
+## Resource: Oman Personal Data Protection Law, Royal Decree 6/2022 – https://decree.om/2022/rd20220006/
+
